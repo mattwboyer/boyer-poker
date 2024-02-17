@@ -16,9 +16,8 @@ public class Deck {
         return this.cards;
     }
 
-    public List<Card> shuffleDeck() {
+    public void shuffleDeck() {
         Collections.shuffle(this.cards);
-        return cards;
     }
 
     public List<Card> buildDeck() {
