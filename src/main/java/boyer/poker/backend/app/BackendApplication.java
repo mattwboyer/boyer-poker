@@ -1,6 +1,5 @@
 package boyer.poker.backend.app;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import boyer.poker.backend.object.Card;
@@ -17,7 +16,6 @@ public class BackendApplication {
 			System.out.println(c.toString());
 		}
 
-		SpringApplication.run(BackendApplication.class, args);
+		// SpringApplication.run(BackendApplication.class, args);
 	}
-
-}
+	

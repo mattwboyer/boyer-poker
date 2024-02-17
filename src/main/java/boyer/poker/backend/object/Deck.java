@@ -61,7 +61,6 @@ public class Deck {
         cards.add(new Card(three, diamonds));
         cards.add(new Card(four, diamonds));
         cards.add(new Card(five, diamonds));
-        cards.add(new Card(five, diamonds));
         cards.add(new Card(six, diamonds));
         cards.add(new Card(seven, diamonds));
         cards.add(new Card(eight, diamonds));
