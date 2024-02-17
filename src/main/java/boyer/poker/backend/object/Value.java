@@ -5,7 +5,7 @@ public class Value {
     private String name;
     private int value;
 
-    private Value(final String name, final int value) {
+    public Value(final String name, final int value) {
         this.name = name;
         this.value = value;
     }

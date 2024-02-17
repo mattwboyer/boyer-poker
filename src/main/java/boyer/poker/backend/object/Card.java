@@ -25,4 +25,8 @@ public class Card {
     public void setSuit(final Suit suit) {
         this.suit = suit;
     }
+
+    public String toString() {
+        return this.value.getName() + " of " + this.suit.getName();
+    }
 }
